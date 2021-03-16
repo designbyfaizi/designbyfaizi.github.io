@@ -129,7 +129,6 @@ a{
 
 .my-menu-item:hover{
   background-color: var(--clr-main);
-  
 }
 
 .my-menu-item:hover .icon-button{
