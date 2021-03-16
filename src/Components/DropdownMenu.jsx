@@ -49,6 +49,7 @@ const DropdownMenu = () => {
 
                 </CSSTransition>
 
+
                 <CSSTransition in={activeMenu === 'contact'} unmountOnExit timeout={500} classNames="my-menu-secondary" onClick={calcHeight}>
                     <div className="menu">
                         <DropdownItem leftIcon={<LeftIcon />} goToMenu="main"></DropdownItem>
