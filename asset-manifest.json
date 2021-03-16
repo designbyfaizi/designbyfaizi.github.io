@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/designbyfaizi.github.io/static/css/main.9ce8dbcc.chunk.css",
+    "main.js": "/designbyfaizi.github.io/static/js/main.80504f21.chunk.js",
+    "main.js.map": "/designbyfaizi.github.io/static/js/main.80504f21.chunk.js.map",
+    "runtime-main.js": "/designbyfaizi.github.io/static/js/runtime-main.e22a5cd4.js",
+    "runtime-main.js.map": "/designbyfaizi.github.io/static/js/runtime-main.e22a5cd4.js.map",
+    "static/css/2.54370922.chunk.css": "/designbyfaizi.github.io/static/css/2.54370922.chunk.css",
+    "static/js/2.97817faa.chunk.js": "/designbyfaizi.github.io/static/js/2.97817faa.chunk.js",
+    "static/js/2.97817faa.chunk.js.map": "/designbyfaizi.github.io/static/js/2.97817faa.chunk.js.map",
+    "index.html": "/designbyfaizi.github.io/index.html",
+    "static/css/2.54370922.chunk.css.map": "/designbyfaizi.github.io/static/css/2.54370922.chunk.css.map",
+    "static/css/main.9ce8dbcc.chunk.css.map": "/designbyfaizi.github.io/static/css/main.9ce8dbcc.chunk.css.map",
+    "static/js/2.97817faa.chunk.js.LICENSE.txt": "/designbyfaizi.github.io/static/js/2.97817faa.chunk.js.LICENSE.txt",
+    "static/media/Design by Faizi.170a6bfd.svg": "/designbyfaizi.github.io/static/media/Design by Faizi.170a6bfd.svg",
+    "static/media/about.527dd915.svg": "/designbyfaizi.github.io/static/media/about.527dd915.svg",
+    "static/media/arrow-down.da6db058.svg": "/designbyfaizi.github.io/static/media/arrow-down.da6db058.svg",
+    "static/media/back.a98e70f8.svg": "/designbyfaizi.github.io/static/media/back.a98e70f8.svg",
+    "static/media/blogging.9b109dad.svg": "/designbyfaizi.github.io/static/media/blogging.9b109dad.svg",
+    "static/media/contact-book.f7fdbe86.svg": "/designbyfaizi.github.io/static/media/contact-book.f7fdbe86.svg",
+    "static/media/fiverr.f70af649.svg": "/designbyfaizi.github.io/static/media/fiverr.f70af649.svg",
+    "static/media/forward.77e8b4f3.svg": "/designbyfaizi.github.io/static/media/forward.77e8b4f3.svg",
+    "static/media/github.1be3365d.svg": "/designbyfaizi.github.io/static/media/github.1be3365d.svg",
+    "static/media/home.b0189fdb.svg": "/designbyfaizi.github.io/static/media/home.b0189fdb.svg",
+    "static/media/idea.42e668e4.svg": "/designbyfaizi.github.io/static/media/idea.42e668e4.svg",
+    "static/media/instagram.482d4132.svg": "/designbyfaizi.github.io/static/media/instagram.482d4132.svg",
+    "static/media/linkedin.3ab0008f.svg": "/designbyfaizi.github.io/static/media/linkedin.3ab0008f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e22a5cd4.js",
+    "static/css/2.54370922.chunk.css",
+    "static/js/2.97817faa.chunk.js",
+    "static/css/main.9ce8dbcc.chunk.css",
+    "static/js/main.80504f21.chunk.js"
+  ]
+}
