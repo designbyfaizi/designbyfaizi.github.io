@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+*{
+  font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --clr-white:white;
+  --clr-black:black;
+  --clr-dark:#1e222c;
+  --clr-light:#2f343a;
+  --clr-main:#d91944;
+  --text-color: white;
+  --nav-size: 100px;
+  --border:1px solid #5c5c5c;
+  --border-radius:8px;
+  --speed: 500ms;
+
+}
+
+body{
+  color: white;
+  background-color: var(--clr-dark);
+}
+
+.logo-brand{
+  align-items: center;
+  justify-content: center;
+}
+
+.faizi-logo svg{
+  width: calc(var(--nav-size)*0.8);
+  height: calc(var(--nav-size)*0.8);
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+
+a{
+  color: var(--text-color) !important;
+  text-decoration:none !important;
+}
+
+.my-navbar{
+  height: var(--nav-size);
+  background-color: var(--clr-dark);
+  padding: 0 1rem;
+  border-bottom:var(--border);
+}
+
+.my-navbar-nav{
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my-nav-item{
+  width: calc(var(--nav-size)*0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button{
+  fill: var(--clr-white);
+  background-color: var(--clr-light);
+  --button-size:calc(var(--nav-size)*0.5);
+  width: var(--button-size);
+  height: var(--button-size);
+  border-radius: 20%;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
+}
+
+.icon-button svg{
+  width: calc(var(--nav-size)*0.25);
+  height: calc(var(--nav-size)*0.25);
+}
+
+.icon-button:hover{
+  filter: brightness(1.2);
+  fill: var(--clr-main);
+}
+
+.faizi-logo{
+  z-index: 2;
+}
+.faizi-logo:hover{
+  filter: brightness(1.1);
+}
+
+.icon-button:active{
+  fill: var(--clr-main);
+}
+
+.my-dropdown{
+  
+  position: absolute;
+  top: calc(var(--nav-size)*0.95);
+  width: 300px;
+  transform: translateX(-40%);
+  background-color: var(--clr-dark);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden;
+
+  transition: height var(--speed) ease;
+}
+
+.my-menu-item{
+  fill: var(--clr-white);
+  height: calc(var(--nav-size)*0.69);
+  display: flex;
+  align-items: center;
+  border-radius: calc(var(--border-radius)*2);
+  transition: background var(--speed);
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+}
+
+.my-menu-item:hover{
+  background-color: var(--clr-main);
+  
+}
+
+.my-menu-item:hover .icon-button{
+  fill: var(--clr-main);
+}
+
+.menu-item-text{
+  margin: 0.5rem;
+}
+
+.icon-right{
+  margin-left: auto;
+}
+
+
+.my-menu{
+  width: 100%;
+}
+
+.my-menu-primary-enter{
+  position: absolute;
+  transform: translateX(-110%);
+
+}
+
+.my-menu-primary-enter-active{
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+
+.my-menu-primary-exit{
+  position: absolute;
+  transform: translateX(0%);
+}
+
+.my-menu-primary-exit-active{
+  transform: translateX(-110%);
+  transition: all var(--speed) ease;
+}
+
+.my-menu-secondary-enter{
+  transform: translateX(110%);
+
+}
+
+.my-menu-secondary-enter-active{
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+
+.my-menu-secondary-exit{
+  transform: translateX(0%);
+}
+
+.my-menu-secondary-exit-active{
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
 }
